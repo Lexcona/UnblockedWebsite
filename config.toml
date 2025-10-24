@@ -1,4 +1,5 @@
 # The URL the site will be built for
+title = "Lexcona's Unblocked Websites"
 base_url = "https://funny.lexcona.xyz"
 
 # Whether to automatically compile all Sass files in the sass directory
