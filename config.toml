@@ -9,9 +9,12 @@ compile_sass = true
 build_search_index = true
 
 [markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = false
+highlight_code = true
+render_emoji = true
+smart_punctuation = true
+# This allows raw HTML in Markdown (default: true)
+allow_html = true
+hard_breaks=true
 
 [extra]
 # Put all your custom variables here

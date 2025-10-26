@@ -1,0 +1,13 @@
+.blog-listing {
+    background-color: rgba(90, 90, 90, 0.5);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+
+.content {
+    margin-left: 15px;
+    margin-right: 15px;
+}

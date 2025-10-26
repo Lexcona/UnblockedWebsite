@@ -10,7 +10,7 @@ body {
 }
 
 a {
-    color: cyan;
+    color: rgb(200, 200, 200);
     text-decoration: none;
 }
 
@@ -30,7 +30,7 @@ p {
 hr {
   border: none;
   height: 2px;
-  background-color: rgba(5, 101, 235, 0.75);
+  background-color: rgba(100, 100, 100, 0.75);
   margin: 20px 0;
   width: 100%;
 }

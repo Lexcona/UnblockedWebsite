@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Games</h1>
+<div class="game-list">
+    {% for page in section.pages %}
+    <div class="game-listing">
+        <h2 class="game-page-button"><a class="game-page-link" href="{{ page.permalink | safe }}">{{ page.title }}</a></h2>
+        <hr>
+        <p class="game-listing-description">{{ page.description }}</p>
+        <p class="game-listing-publish">{{ page.date   }}</p>
+    </div>
+    {% endfor %}
+</div>
+{% endblock content %}
